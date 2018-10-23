@@ -22,4 +22,4 @@ payload = {"mail_datas":
           } 
 reqdata = requests.post(url, data=json.dumps(payload), headers={'Content-Type': 'application/json'})
 print (reqdata.content)
-print "completed"
+
